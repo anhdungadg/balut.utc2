@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../styles/Header.css';
 import { Link } from 'react-router-dom';
+import logoImage from '../../assets/logo.png'; // Import logo
 
 const Header = () => {
   return (
@@ -9,7 +10,7 @@ const Header = () => {
         <div className="container">
           <div className="logo">
             <Link to="/">
-              <img src="/logo.png" alt="UTC2 Logo" />
+              <img src={logoImage} alt="UTC2 Logo" />
               <div className="logo-text">
                 <h1>TRƯỜNG ĐẠI HỌC GIAO THÔNG VẬN TẢI</h1>
                 <h2>PHÂN HIỆU TẠI TP. HỒ CHÍ MINH</h2>

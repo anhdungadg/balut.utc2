@@ -1,25 +1,30 @@
 import React, { useState, useEffect } from 'react';
 import '../../styles/Slider.css';
 
+// Import slider images
+import slider1Image from '../../assets/images/slider1.jpg';
+import slider2Image from '../../assets/images/slider2.jpg';
+import slider3Image from '../../assets/images/slider3.jpg';
+
 const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   
   const slides = [
     {
       id: 1,
-      image: '/images/slider1.jpg',
+      image: slider1Image,
       title: 'Chào mừng đến với Phân hiệu trường ĐH GTVT tại TP.HCM',
       description: 'Đào tạo nguồn nhân lực chất lượng cao trong lĩnh vực giao thông vận tải'
     },
     {
       id: 2,
-      image: '/images/slider2.jpg',
+      image: slider2Image,
       title: 'Tuyển sinh năm học 2023-2024',
       description: 'Thông tin tuyển sinh các ngành đào tạo đại học, cao đẳng'
     },
     {
       id: 3,
-      image: '/images/slider3.jpg',
+      image: slider3Image,
       title: 'Nghiên cứu khoa học',
       description: 'Các dự án nghiên cứu và hợp tác quốc tế'
     }

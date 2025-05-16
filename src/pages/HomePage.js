@@ -4,6 +4,13 @@ import QuickLinks from '../components/home/QuickLinks';
 import NewsSection from '../components/home/NewsSection';
 import '../styles/HomePage.css';
 
+// Import partner images
+import partner1Image from '../assets/images/partner1.png';
+import partner2Image from '../assets/images/partner2.png';
+import partner3Image from '../assets/images/partner3.png';
+import partner4Image from '../assets/images/partner4.png';
+import partner5Image from '../assets/images/partner5.png';
+
 const HomePage = () => {
   return (
     <div className="home-page">
@@ -73,19 +80,19 @@ const HomePage = () => {
           <h2>ĐỐI TÁC</h2>
           <div className="partners-slider">
             <div className="partner">
-              <img src="/images/partner1.png" alt="Partner 1" />
+              <img src={partner1Image} alt="Partner 1" />
             </div>
             <div className="partner">
-              <img src="/images/partner2.png" alt="Partner 2" />
+              <img src={partner2Image} alt="Partner 2" />
             </div>
             <div className="partner">
-              <img src="/images/partner3.png" alt="Partner 3" />
+              <img src={partner3Image} alt="Partner 3" />
             </div>
             <div className="partner">
-              <img src="/images/partner4.png" alt="Partner 4" />
+              <img src={partner4Image} alt="Partner 4" />
             </div>
             <div className="partner">
-              <img src="/images/partner5.png" alt="Partner 5" />
+              <img src={partner5Image} alt="Partner 5" />
             </div>
           </div>
         </div>
