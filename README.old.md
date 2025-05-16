@@ -1,0 +1,1 @@
+# UTC2 Website Clone - Học tập ReactJS\n\nDự án này được tạo với mục đích học tập về HTML và ReactJS bằng cách xây dựng một trang web tương tự như trang web của Trường Đại học Giao thông Vận tải - Phân hiệu tại TP.HCM.
