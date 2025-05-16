@@ -21,7 +21,7 @@ const Header = () => {
             <div className="search-box">
               <input type="text" placeholder="Tìm kiếm..." />
               <button type="submit">
-                <i className="fa fa-search"></i>
+                <i className="fas fa-search"></i>
               </button>
             </div>
             <div className="language-selector">
