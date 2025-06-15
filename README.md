@@ -135,3 +135,11 @@ Toàn bộ cấu trúc dự án, các component, và file CSS trong dự án nà
 - [Trang chủ Amazon Q Developer](https://aws.amazon.com/q/developer/)
 - [Tài liệu Amazon Q CLI](https://docs.aws.amazon.com/amazonq/latest/cli-user-guide/what-is.html)
 - [Workshop về Amazon Q Developer](https://catalog.workshops.aws/amazon-q-developer/en-US)
+
+
+
+## DISCLAIMER
+- For educational/reference purposes only
+- Not production-ready, use at your own risk
+- No warranty provided - test thoroughly before use
+- Author not liable for any damages or issues
